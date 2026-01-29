@@ -1,8 +1,7 @@
 {
-  "buildCommand": null,
-  "installCommand": "echo 'Skipping install - serving static build'",
+  "buildCommand": "npm run build",
   "outputDirectory": "build",
-  "framework": null,
+  "framework": "create-react-app",
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ]
