@@ -4,14 +4,23 @@
   "private": true,
   "description": "Portfolio website for AI & Data Science student",
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
     "bootstrap": "^5.3.2",
     "react-bootstrap": "^2.9.1",
     "aos": "^2.3.4",
     "react-icons": "^4.12.0",
-    "emailjs-com": "^3.2.0"
+    "@emailjs/browser": "^4.1.0"
+  },
+  "overrides": {
+    "whatwg-encoding": "npm:@exodus/bytes@latest",
+    "w3c-hr-time": "npm:performance-now@latest",
+    "stable": "npm:@pnpm/stable@latest",
+    "sourcemap-codec": "npm:@jridgewell/sourcemap-codec@latest",
+    "rimraf": "^4.0.0",
+    "rollup-plugin-terser": "npm:@rollup/plugin-terser@latest",
+    "q": "npm:pinkie-promise@latest"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -1,5 +1,6 @@
 {
   "buildCommand": null,
+  "installCommand": "echo 'Skipping install - serving static build'",
   "outputDirectory": "build",
   "framework": null,
   "rewrites": [
